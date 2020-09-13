@@ -1,5 +1,60 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
 }
 
+body{
+    margin:0;
+    padding:inherit;
+    font-family: sans-serif;
+    font-family: 'Roobert Regular', serif;
+}
+
+h2{
+    font-size: 1.3em;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 1em;
+    border-top: 2px solid #C0C0C0;
+    border-bottom: 2px solid #C0C0C0;
+}
+
+header nav ul li{
+    padding: .2em 1em;
+}
+
+header nav ul li:last-of-type {
+
+
+}
+
+header nav ul a{
+    list-style: none;
+}
+
+header form {
+    padding: .75em;
+    flex-grow: 5;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+article {
+    border-bottom: 2px solid #C0C0C0;
+}
+
+article ul {
+    list-style: none;
+    display: flex;
+    padding: .2em .2em 0;
+
+}
+
+article ul li img{
+    width: 90%;
+}
