@@ -40,13 +40,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
+Naarmate van de lesstof heb ik een beetje gewerkt met flexbox en de standaard html elementen voor een basisopzet
+
 **Screenshot(s):**
+
+(images/fullPage.png)
 
 -screenshot(s) van hoe ver je bent-
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
+
+Het is mij niet gelukt om een zoekbalk in mijn navigatie te plaatsen op de juiste plek
+
 
 ### Verslag van meeting
 
@@ -66,7 +73,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 
-- twitch.tv
+- (twitch.tv)
 
 **Screenshot(s):**
 
