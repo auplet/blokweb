@@ -44,7 +44,7 @@ Naarmate van de lesstof heb ik een beetje gewerkt met flexbox en de standaard ht
 
 **Screenshot(s):**
 
-(images/fullPage.png)
+![](images/fullPage.png)
 
 -screenshot(s) van hoe ver je bent-
 
@@ -73,7 +73,7 @@ Het is mij niet gelukt om een zoekbalk in mijn navigatie te plaatsen op de juist
 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 
-- (twitch.tv)
+- ![](twitch.tv)
 
 **Screenshot(s):**
 
