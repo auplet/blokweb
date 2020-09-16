@@ -52,7 +52,12 @@ Naarmate van de lesstof heb ik een beetje gewerkt met flexbox en de standaard ht
 
 -samen met je groepje opstellen-
 
-Het is mij niet gelukt om een zoekbalk in mijn navigatie te plaatsen op de juiste plek
+    Voortgang gesprek planning
+- Flexbox; blokken naast elkaar zetten
+- Pannenkoeken menu; als er op de website een is, mag je die dan namaken of moet je een andere oplossing bedenken?
+- Java; 360 turn
+- let keyword javascript
+- zoekbalk in navigatie
 
 
 ### Verslag van meeting
@@ -73,7 +78,7 @@ Het is mij niet gelukt om een zoekbalk in mijn navigatie te plaatsen op de juist
 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 
-- ![](twitch.tv)
+- [](twitch.tv)
 
 **Screenshot(s):**
 
