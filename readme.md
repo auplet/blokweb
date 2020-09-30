@@ -6,7 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
+1. ![](https://www.w3schools.com/)
 2. -bron 2-
 3. -...-
 
@@ -31,6 +31,21 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 2 (week 5)
 
 -same as voortgang 1-
+
+-dit ging goed & dit was lastig-
+
+box shadow met image animeren zijwaards naar boven toe. weet niet hoe dat moet
+
+![](images/voortgang2ScreenShot.png)
+
+### Agenda voor meeting 2
+
+-samen met je groepje opstellen-
+
+    Voortgang gesprek planning
+- max width bij grid toepassen
+- de pagina refresged wanneer de pop-up wordt afgesloten
+- image on hover naar rechtsboven laten bewegen in animatie
 
 
 
