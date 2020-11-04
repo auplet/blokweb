@@ -11,24 +11,25 @@
 </head>
 
 <body>
-    <header>
+<header>
         <a href="index.html" class="home"><img src="images/logo.png" alt="logo" class="logo">
-            <div class="backgroundLogo"></div>
         </a>
         <nav>
             <ul>
+
                 <li><a href="">Following</a></li>
                 <li><a href="">Browse</a></li>
                 <li><a href="">Esports</a></li>
                 <li><a href="">Music</a></li>
 
             </ul>
-        </nav>
+            </nav>
+
         <div class="subNAV">
             <input type="checkbox" id="dots">
             <label for="dots"><img src="images/ellipsis.png" alt="dots" class="dots"></label>
             <ul class="submenu">
-                <li><a href="">General</a></li>
+                <li><a href=""><b>General</b></a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Advertisers</a></li>
                 <li><a href="">Blog</a></li>
@@ -42,12 +43,35 @@
                 <li><a href="">Press</a></li>
                 <li><a href="">Store</a></li>
                 <li><a href="">Turbo</a></li>
+                <li><a href="">
+                        <hr></a></li>
+                <li><a href=""><b>HELP & LEGAL</b></a></li>
+                <li><a href="">Accessibility Statement</a></li>
+                <li><a href="">Ad choices</a></li>
+                <li><a href="">Community Guidelines</a></li>
+                <li><a href="">Coockie Policy</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Security</a></li>
+                <li><a href="">Terms</a></li>
             </ul>
         </div>
         <form>
-            <input type="search" name="search" id="search" placeholder="Search">
+            <input type="search" name="search" id="search" placeholder="    Search">
             <button type="submit" id="searchButton"><img src="images/magnifying-glass.png" alt="search button"></button>
         </form>
+        <div class="icons">
+            <img src="images/icons.png" alt="icons">
+        </div>
+
+        <ul class="vertical">
+                <li><img src="images/verticalMenu.png" alt="expand"></li>
+                <li><img src="images/PF6.png" alt="thumbnail"></li>
+                <li><img src="images/PF5.png" alt="thumbnail"></li>
+                <li><img src="images/PF4.png" alt="thumbnail"></li>
+                <li><img src="images/PF2.png" alt="thumbnail"></li>
+                <li><img src="images/PF3.png" alt="thumbnail"></li>
+            </ul>
 
     </header>
     <main>
@@ -61,7 +85,7 @@
             <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
             <script type="text/javascript">
                 new Twitch.Embed("twitch-embed", {
-                    width: 1880,
+                    width: 1824,
                     height: 740,
                     channel: "becca",
                     // only needed if your site is also embedded on embed.example.com and othersite.example.com

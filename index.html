@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="author" content="Alexander">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="images/logo.png"/>
+    <link rel="icon" type="image/png" href="images/logo.png" />
     <title>Twitch frontend</title>
     <link href="styles/style.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-       <a href="index.html" class="home"><img src="images/logo.png" alt="logo" class="logo">
-                <div class="backgroundLogo"></div>
-            </a>
+        <a href="index.html" class="home"><img src="images/logo.png" alt="logo" class="logo">
+        </a>
         <nav>
             <ul>
+
                 <li><a href="">Following</a></li>
                 <li><a href="">Browse</a></li>
                 <li><a href="">Esports</a></li>
@@ -24,40 +24,64 @@
 
             </ul>
         </nav>
+
         <div class="subNAV">
-        <input type="checkbox" id="dots">
-        <label for="dots"><img src="images/ellipsis.png" alt="dots" class="dots"></label>
-        <ul class="submenu">
-            <li><a href="">General</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Advertisers</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Developers</a></li>
-            <li><a href="">Download Apps</a></li>
-            <li><a href="">Gift Card</a></li>
-            <li><a href="">IGDB</a></li>
-            <li><a href="">Jobs</a></li>
-            <li><a href="">Music on Twitch</a></li>
-            <li><a href="">Partners</a></li>
-            <li><a href="">Press</a></li>
-            <li><a href="">Store</a></li>
-            <li><a href="">Turbo</a></li>
-        </ul>
+            <input type="checkbox" id="dots">
+            <label for="dots"><img src="images/ellipsis.png" alt="dots" class="dots"></label>
+            <ul class="submenu">
+                <li><a href=""><b>General</b></a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Advertisers</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Developers</a></li>
+                <li><a href="">Download Apps</a></li>
+                <li><a href="">Gift Card</a></li>
+                <li><a href="">IGDB</a></li>
+                <li><a href="">Jobs</a></li>
+                <li><a href="">Music on Twitch</a></li>
+                <li><a href="">Partners</a></li>
+                <li><a href="">Press</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="">Turbo</a></li>
+                <li><a href="">
+                        <hr></a></li>
+                <li><a href=""><b>HELP & LEGAL</b></a></li>
+                <li><a href="">Accessibility Statement</a></li>
+                <li><a href="">Ad choices</a></li>
+                <li><a href="">Community Guidelines</a></li>
+                <li><a href="">Coockie Policy</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Security</a></li>
+                <li><a href="">Terms</a></li>
+            </ul>
         </div>
         <form>
-            <input type="search" name="search" id="search" placeholder="Search">
+            <input type="search" name="search" id="search" placeholder="    Search">
             <button type="submit" id="searchButton"><img src="images/magnifying-glass.png" alt="search button"></button>
         </form>
+        <div class="icons">
+            <img src="images/icons.png" alt="icons">
+        </div>
+
+        <ul class="vertical">
+            <li><img src="images/verticalMenu.png" alt="expand" class="expand"></li>
+            <li><img src="images/PF6.png" alt="thumbnail"></li>
+            <li><img src="images/PF5.png" alt="thumbnail"></li>
+            <li><img src="images/PF4.png" alt="thumbnail"></li>
+            <li><img src="images/PF2.png" alt="thumbnail"></li>
+            <li><img src="images/PF3.png" alt="thumbnail"></li>
+        </ul>
+        <ul class="expandedMenu">
+            <li><img src="images/uitklab.png" alt="expanded"></li>
+        </ul>
 
     </header>
     <main>
-        <!----
-    <section>
-        <article>
-
+        <article class="slideShow">
+            <img src="images/slideShow.png" alt="slidershow">
         </article>
-    </section>
---->
+
         <section>
             <article>
                 <h1>Ontdekken</h1>
@@ -200,21 +224,26 @@
 
                 <button id="showMore"> Meer weergeven &nbsp;<img src="images/down-chevron.png" class="arrowDown" alt="arrow down"></button>
 
+
             </article>
         </section>
         <section>
             <article class="categories">
                 <h2><a href="">Categories</a> we think you'll like</h2>
                 <ul>
-                    <li> <img src="images/10.jpg" alt="foto 10" /></li>
-                    <li> <img src="images/11.jpg" alt="foto 11" /></li>
-                    <li> <img src="images/12.jpg" alt="foto 12" /></li>
-                    <li> <img src="images/13.jpg" alt="foto 13" /></li>
-                    <li> <img src="images/14.jpg" alt="foto 14" /></li>
-                    <li> <img src="images/15.jpg" alt="foto 15" /></li>
-                    <li> <img src="images/16.jpg" alt="foto 16" /></li>
-                    <li> <img src="images/17.jpg" alt="foto 17" /></li>
-                    <li> <img src="images/18.jpg" alt="foto 18" /></li>
+                    <li> <img src="images/10.jpg" alt="among us" /></li>
+                    <li> <img src="images/11.jpg" alt="warzone" /></li>
+                    <li> <img src="images/12.jpg" alt="counter strike" /></li>
+                    <li> <img src="images/13.jpg" alt="fall guys" /></li>
+                    <li> <img src="images/14.jpg" alt="league of legends" /></li>
+                    <li> <img src="images/15.jpg" alt="teamfight tactics" /></li>
+                    <li> <img src="images/16.jpg" alt="walorant" /></li>
+                    <li> <img src="images/17.jpg" alt="just chatting" /></li>
+                    <li> <img src="images/18.jpg" alt="fortnite" /></li>
+                    <li> <img src="images/19.jpg" alt="minecraft" /></li>
+                    <li> <img src="images/20.jpg" alt="new world" /></li>
+                    <li> <img src="images/21.jpg" alt="special events" /></li>
+
                 </ul>
             </article>
         </section>
@@ -223,4 +252,6 @@
 
     </footer>
     <script src="scripts/meerWeergeven.js"></script>
-</body></html>
+</body>
+
+</html>

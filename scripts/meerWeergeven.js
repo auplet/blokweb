@@ -36,3 +36,13 @@ meerWeergeven.addEventListener("click", function(){
     UL.classList.add("show");
     meerWeergeven.classList.add("hide");
 });
+
+
+var deButton = document.querySelector(".expand");
+
+function doeToggle(){
+    var verticalMenu = document.querySelector(".expandedMenu");
+    verticalMenu.classList.toggle("Expand");
+}
+
+deButton.addEventListener("click", doeToggle);
