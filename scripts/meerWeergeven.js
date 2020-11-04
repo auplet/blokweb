@@ -19,10 +19,20 @@ function meerWeergeven() {
 
 
 
-var meerWeergevenButton = document.querySelector("section:first-child button");
+/*var meerWeergevenButton = document.querySelector("section:first-child button");
 meerWeergevenButton.addEventListener("click", veranderMeerWeergevenUL);
 
+var meerWeergevenUL = document.querySelector("section:first-child ul");
 function veranderMeerWeergevenUL() {
-    let meerWeergevenUL = document.querySelector("section:first-child ul");
+
     meerWeergevenUL.classList.toggle("anders");
 }
+*/
+
+
+var meerWeergeven = document.querySelector("#showMore");
+var UL = document.querySelector(".meerWeergeven");
+meerWeergeven.addEventListener("click", function(){
+    UL.classList.add("show");
+    meerWeergeven.classList.add("hide");
+});

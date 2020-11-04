@@ -3,11 +3,17 @@
   box-sizing:border-box;
 }
 
+@font-face{
+    font-family: 'Navigatie';
+    src: url('font/Roobert TWHINT Bold.otf');
+    font-weight: bold;
+}
+
 body{
     margin: 1.2em;
     padding: 0;
-    font-family: sans-serif;
-    font-family: 'Roobert Regular', serif;
+    /*font-family: sans-serif;*/
+    font-family: 'Navigatie', sans-serif;
 }
 
 h1{
@@ -18,14 +24,24 @@ h2{
     font-size: 1.3em;
 }
 
+a:visited, a:link{
+text-decoration: none}
+
+header nav {
+    font-family: 'Navigatie', sans-serif;
+}
+
 header nav ul{
+    width: 100%;
     list-style: none;
     display: flex;
-    margin: 0;
-    padding: 1em;
-    border-top: 2px solid #C0C0C0;
-    border-bottom: 2px solid #C0C0C0;
-    bottom: 0;
+    margin-top: -48px;
+    margin-left: 40px;
+    padding: 0.5em;
+    border-top: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 header nav ul li{
@@ -43,6 +59,34 @@ header nav ul a{
 nav {
     display: flex;
 }
+
+.submenu{
+    display: none;
+}
+
+.logo{
+    width: 34px;
+    margin-left: 3px;
+    margin-top: -8px;
+    padding: 0;
+}
+
+.dots{
+    width: 1%;
+    margin-left: 480px;
+    margin-top: -53px;
+    position: absolute;
+
+}
+
+form{
+    top: 50%;
+    left:39%;
+    position: absolute;
+    margin-top: -25.2%;
+
+}
+
 header form {
     padding: .75em;
     flex-grow: 5;
@@ -51,8 +95,143 @@ header form {
 
 }
 
+button, input {
+    border: none;
+
+}
+
+#showMore{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    list-style: none;
+    margin-top: 100px;
+    border: none;
+}
+
+.arrowDown{
+
+}
+
+.meerWeergeven{
+    list-style: none;
+    display: none;
+    padding: .2em .2em 0;
+
+}
+
+.categories{
+    margin-top: 10em;
+}
+
+.show{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
+.stream a{
+    position: relative;
+    display: block;
+
+}
+.stream img{
+    width: 100%;
+    transform: translate(0,0); /*verplaats image is translate*/
+    transition: 0.3s transform ease-in-out;
+}
+
+.stream a:hover img{
+    transform: translate(3%, -3%);
+}
+
+ul section {
+    margin: 0 5px;
+
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 3.6px;
+    background-color: #9147ff;
+    z-index: -1;
+}
+
+
+-----------------------------------
+
+/*
+.stream {
+  position: relative;
+  display: inline-block;
+  background-color: #9147ff;
+}
+
+  .stream:before,
+  .stream:after {
+    content: '';
+    display: block;
+    background-color: #9147ff;
+    width: 341px;
+    height: 190px;
+    position: absolute;
+    transition: all .15s ease;
+    margin-top: -190px;
+    }
+
+  .stream:before {
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: rotate(0deg) scale(0);
+  }
+
+  .stream:after {
+    right: 40;
+    bottom: 40;
+    transform-origin: bottom right;
+    transform: rotate(0deg) scale(0);
+  }
+
+  .stream__thumbnail {
+    display: block;
+    transform: translate(0, 0);
+    transition: all .15s ease;
+    position: relative;
+    z-index: 10;
+  }
+
+.stream:hover .stream__thumbnail {
+  transform: translate(3%, -6%);
+}
+
+.stream:hover:before {
+  transform: rotate(0deg) scale(1);
+}
+
+.stream:hover:after {
+  transform: rotate(0deg) scale(1);
+  z-index: -1;
+}
+*/
+
+----------------------------------------
+
 article {
     border-bottom: 2px solid #C0C0C0;
+    /*
+    flex-flow: row;
+    display: flex;
+    */
 }
 
 article ul {
@@ -65,7 +244,66 @@ article ul {
 article ul li img{
     /*width: 20em 10em;*/
     width: 90%;
+}
 
+article p {
+    font-size: 12px;
+
+}
+
+h3{
+    font-size: 14px;
+}
+
+.onderStream{
+    width: 14%;
+    float: left;
+
+}
+.onderStreamText{
+    font-size: 14px;
+    float: right;
+    margin-right: -12em;
+    margin-top: -6em;
+    padding: inherit;
+}
+
+.onderStream2{
+    width: 8%;
+    float: left;
+
+}
+.onderStreamText2{
+    font-size: 14px;
+    float: right;
+    margin-right: -18.5em;
+    margin-top: -6em;
+    padding: inherit;
+}
+
+.onderStream3{
+    width: 8%;
+    float: left;
+
+}
+.onderStreamText3{
+    font-size: 14px;
+    float: right;
+    margin-right: -9.5em;
+    margin-top: -6em;
+    padding: inherit;
+}
+
+input[type=submit] {
+    text-decoration: none;
+}
+
+.english{
+    float: right;
+    margin-right: -7em;
+}
+#searchButton{
+    text-decoration: none;
 }
 
 @keyframes vergroot {
@@ -78,12 +316,12 @@ article ul li img{
     }
 }
 
-article ul li a:hover img{
+/*article ul li a:hover img{
     box-shadow: -10px 10px 10px 10px;
     animation-name: vergroot;
     animation-duration: 1s;
 }
-
+*/
 @media only screen and (max-width: 600px) {
 
     body {

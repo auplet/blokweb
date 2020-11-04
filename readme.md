@@ -7,8 +7,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. ![](https://www.w3schools.com/)
-2. -bron 2-
-3. -...-
+2. <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
+3. ![](https://codepen.io/Axiol/pen/QWLRMVr)
 
 
 
@@ -24,7 +24,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Niet verder gewerkt
 
 
 
@@ -67,7 +67,7 @@ Naarmate van de lesstof heb ik een beetje gewerkt met flexbox en de standaard ht
 
 -samen met je groepje opstellen-
 
-    Voortgang gesprek planning
+Voortgang gesprek planning
 - Flexbox; blokken naast elkaar zetten
 - Pannenkoeken menu; als er op de website een is, mag je die dan namaken of moet je een andere oplossing bedenken?
 - Java; 360 turn
