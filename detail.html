@@ -11,21 +11,23 @@
 </head>
 
 <body>
-<header>
+    <header>
         <a href="index.html" class="home"><img src="images/logo.png" alt="logo" class="logo">
         </a>
         <nav>
             <ul>
-
+                <!--- main menu horizontal -->
                 <li><a href="">Following</a></li>
                 <li><a href="">Browse</a></li>
                 <li><a href="">Esports</a></li>
                 <li><a href="">Music</a></li>
 
             </ul>
-            </nav>
-
+        </nav>
+        <!--- sub menu vertical -->
         <div class="subNAV">
+            <!--- interessante interactie gevonden online waarbij je door middel van een verborgen checkbox hidden content kan laten tonen -->
+            <!--- https://stackoverflow.com/questions/49934826/how-to-open-sub-menu-with-onclick-function-and-hide-with-onclick-function -->
             <input type="checkbox" id="dots">
             <label for="dots"><img src="images/ellipsis.png" alt="dots" class="dots"></label>
             <ul class="submenu">
@@ -56,22 +58,34 @@
                 <li><a href="">Terms</a></li>
             </ul>
         </div>
+        <!--- een searchbalk met toegevoegde icon-->
         <form>
             <input type="search" name="search" id="search" placeholder="    Search">
             <button type="submit" id="searchButton"><img src="images/magnifying-glass.png" alt="search button"></button>
         </form>
+        <!--- menu icons rechts (onbelangrijk dus niet klikbaar gemaakt) -->
         <div class="icons">
             <img src="images/icons.png" alt="icons">
         </div>
+        <div>
+            <img src="images/iconsMobile.png" alt="icons" class="iconsMobile">
+        </div>
 
+        <h2 class="mobileH">Discover</h2>
+
+        <!--- tweede navigatie vertical -->
         <ul class="vertical">
-                <li><img src="images/verticalMenu.png" alt="expand"></li>
-                <li><img src="images/PF6.png" alt="thumbnail"></li>
-                <li><img src="images/PF5.png" alt="thumbnail"></li>
-                <li><img src="images/PF4.png" alt="thumbnail"></li>
-                <li><img src="images/PF2.png" alt="thumbnail"></li>
-                <li><img src="images/PF3.png" alt="thumbnail"></li>
-            </ul>
+            <li><img src="images/verticalMenu.png" alt="expand" class="expand"></li>
+            <li><img src="images/PF6.png" alt="thumbnail"></li>
+            <li><img src="images/PF5.png" alt="thumbnail"></li>
+            <li><img src="images/PF4.png" alt="thumbnail"></li>
+            <li><img src="images/PF2.png" alt="thumbnail"></li>
+            <li><img src="images/PF3.png" alt="thumbnail"></li>
+        </ul>
+
+        <ul class="expandedMenu">
+            <li><img src="images/uitklab.png" alt="expanded"></li>
+        </ul>
 
     </header>
     <main>
@@ -94,6 +108,11 @@
 
             </script>
         </section>
+        <article>
+            <img src="images/mobileVID.jpg" alt="streamplayer" class="mobileStream">
+        </article>
+
+
     </main>
     <footer>
 

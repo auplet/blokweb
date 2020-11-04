@@ -16,7 +16,7 @@
         </a>
         <nav>
             <ul>
-
+                <!--- main menu horizontal -->
                 <li><a href="">Following</a></li>
                 <li><a href="">Browse</a></li>
                 <li><a href="">Esports</a></li>
@@ -24,8 +24,10 @@
 
             </ul>
         </nav>
-
+        <!--- sub menu vertical -->
         <div class="subNAV">
+            <!--- interessante interactie gevonden online waarbij je door middel van een verborgen checkbox hidden content kan laten tonen -->
+            <!--- https://stackoverflow.com/questions/49934826/how-to-open-sub-menu-with-onclick-function-and-hide-with-onclick-function -->
             <input type="checkbox" id="dots">
             <label for="dots"><img src="images/ellipsis.png" alt="dots" class="dots"></label>
             <ul class="submenu">
@@ -56,14 +58,22 @@
                 <li><a href="">Terms</a></li>
             </ul>
         </div>
+        <!--- een searchbalk met toegevoegde icon-->
         <form>
             <input type="search" name="search" id="search" placeholder="    Search">
             <button type="submit" id="searchButton"><img src="images/magnifying-glass.png" alt="search button"></button>
         </form>
+        <!--- menu icons rechts (onbelangrijk dus niet klikbaar gemaakt) -->
         <div class="icons">
             <img src="images/icons.png" alt="icons">
         </div>
+        <div>
+            <img src="images/iconsMobile.png" alt="icons" class="iconsMobile">
+        </div>
 
+        <h2 class="mobileH">Discover</h2>
+
+        <!--- tweede navigatie vertical -->
         <ul class="vertical">
             <li><img src="images/verticalMenu.png" alt="expand" class="expand"></li>
             <li><img src="images/PF6.png" alt="thumbnail"></li>
@@ -72,25 +82,36 @@
             <li><img src="images/PF2.png" alt="thumbnail"></li>
             <li><img src="images/PF3.png" alt="thumbnail"></li>
         </ul>
+
         <ul class="expandedMenu">
             <li><img src="images/uitklab.png" alt="expanded"></li>
         </ul>
 
     </header>
     <main>
+        <!--- neppe slideshow, is gwn een image -->
         <article class="slideShow">
             <img src="images/slideShow.png" alt="slidershow">
         </article>
+        <article>
+            <img src="images/slideShowMobiel.png" alt="slidershow" class="slideShowMobile">
+        </article>
+        <article>
+            <a href="detail.html"><img src="images/thumbnailMobile.jpg" alt="slidershow" class="slideShowMobile"></a>
+        </article>
 
+        <!--- Live channels images flex met ondertext -->
         <section>
             <article>
                 <h1>Ontdekken</h1>
                 <h2>Live channels we think you'll like</h2>
                 <ul>
                     <section>
-                        <li class="stream"><a href="detail.html"><img src="images/1.jpg" alt="foto 1" class="stream__thumbnail" />
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href="detail.html"><img src="images/1.jpg" alt="becca" class="stream__thumbnail" />
                                 <div class="background"></div>
                             </a></li>
+                        <!--- profielfoto en ondertext -->
                         <article class="onderStream">
                             <p><img src="images/beccaPF.png" alt="becca"></p>
                             <figure class="onderStreamText">
@@ -101,9 +122,11 @@
                         </article>
                     </section>
                     <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
                         <li class="stream"><a href=""><img src="images/3.jpg" alt="COD stream" class="stream__thumbnail" />
                                 <div class="background"></div>
                             </a></li>
+                        <!--- profielfoto en ondertext -->
                         <article class="onderStream2">
                             <p><img src="images/PF2.png" alt="symfuhny"></p>
                             <figure class="onderStreamText2">
@@ -114,9 +137,11 @@
                         </article>
                     </section>
                     <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
                         <li class="stream"><a href=""><img src="images/7.jpg" alt="josh" class="stream__thumbnail" />
                                 <div class="background"></div>
                             </a></li>
+                        <!--- profielfoto en ondertext -->
                         <article class="onderStream3">
                             <p><img src="images/PF6.png" alt="dude"></p>
                             <figure class="onderStreamText3">
@@ -127,9 +152,11 @@
                         </article>
                     </section>
                     <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
                         <li class="stream"><a href=""><img src="images/8.jpg" alt="LoL stream" class="stream__thumbnail" />
                                 <div class="background"></div>
                             </a></li>
+                        <!--- profielfoto en ondertext -->
                         <article class="onderStream2">
                             <p><img src="images/PF4.png" alt="Pokimane"></p>
                             <figure class="onderStreamText2">
@@ -140,9 +167,11 @@
                         </article>
                     </section>
                     <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
                         <li class="stream"><a href=""><img src="images/5.jpg" alt="LoL stream" class="stream__thumbnail" />
                                 <div class="background"></div>
                             </a></li>
+                        <!--- profielfoto en ondertext -->
                         <article class="onderStream2">
                             <p><img src="images/PF3.png" alt="Kandyland"></p>
                             <figure class="onderStreamText2">
@@ -156,9 +185,11 @@
 
                 <ul class="meerWeergeven">
                     <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
                         <li class="stream"><a href="detail.html"><img src="images/6.jpg" alt="foto 1" class="stream__thumbnail" />
                                 <div class="background"></div>
                             </a></li>
+                        <!--- profielfoto en ondertext -->
                         <article class="onderStream">
                             <p><img src="images/beccaPF.png" alt="becca"></p>
                             <figure class="onderStreamText">
@@ -169,9 +200,11 @@
                         </article>
                     </section>
                     <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
                         <li class="stream"><a href=""><img src="images/2.jpg" alt="COD stream" class="stream__thumbnail" />
                                 <div class="background"></div>
                             </a></li>
+                        <!--- profielfoto en ondertext -->
                         <article class="onderStream2">
                             <p><img src="images/PF2.png" alt="symfuhny"></p>
                             <figure class="onderStreamText2">
@@ -182,9 +215,11 @@
                         </article>
                     </section>
                     <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
                         <li class="stream"><a href=""><img src="images/4.jpg" alt="josh" class="stream__thumbnail" />
                                 <div class="background"></div>
                             </a></li>
+                        <!--- profielfoto en ondertext -->
                         <article class="onderStream3">
                             <p><img src="images/PF6.png" alt="dude"></p>
                             <figure class="onderStreamText3">
@@ -195,9 +230,11 @@
                         </article>
                     </section>
                     <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
                         <li class="stream"><a href=""><img src="images/9.jpg" alt="LoL stream" class="stream__thumbnail" />
                                 <div class="background"></div>
                             </a></li>
+                        <!--- profielfoto en ondertext -->
                         <article class="onderStream2">
                             <p><img src="images/PF4.png" alt="Pokimane"></p>
                             <figure class="onderStreamText2">
@@ -208,9 +245,11 @@
                         </article>
                     </section>
                     <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
                         <li class="stream"><a href=""><img src="images/3.jpg" alt="LoL stream" class="stream__thumbnail" />
                                 <div class="background"></div>
                             </a></li>
+                        <!--- profielfoto en ondertext -->
                         <article class="onderStream2">
                             <p><img src="images/PF3.png" alt="Kandyland"></p>
                             <figure class="onderStreamText2">
@@ -222,14 +261,14 @@
                     </section>
                 </ul>
 
-                <button id="showMore"> Meer weergeven &nbsp;<img src="images/down-chevron.png" class="arrowDown" alt="arrow down"></button>
+                <button id="showMore"> Show more &nbsp;<img src="images/down-chevron.png" class="arrowDown" alt="arrow down"></button>
 
 
             </article>
         </section>
         <section>
             <article class="categories">
-                <h2><a href="">Categories</a> we think you'll like</h2>
+                <h2><a href=""><span>Categories</span></a> we think you'll like</h2>
                 <ul>
                     <li> <img src="images/10.jpg" alt="among us" /></li>
                     <li> <img src="images/11.jpg" alt="warzone" /></li>
@@ -244,6 +283,91 @@
                     <li> <img src="images/20.jpg" alt="new world" /></li>
                     <li> <img src="images/21.jpg" alt="special events" /></li>
 
+                </ul>
+            </article>
+        </section>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <section class="mobiel">
+            <article>
+                <h1>Ontdekken</h1>
+                <h2>Recommended <a href=""><span>Just chatting</span></a> channels</h2>
+                <ul>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href="detail.html"><img src="images/1.jpg" alt="foto 1" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream">
+                            <p><img src="images/beccaPF.png" alt="becca"></p>
+                            <figure class="onderStreamText">
+                                <h3>becca - LP MIA oh no</h3>
+                                <p>Becca<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/3.jpg" alt="COD stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream2">
+                            <p><img src="images/PF2.png" alt="symfuhny"></p>
+                            <figure class="onderStreamText2">
+                                <h3>[1005+ WINS] Use Code Sym in t..</h3>
+                                <p>Symfuhny<br>Call of Duty: Modern Warfare</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/7.jpg" alt="josh" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream3">
+                            <p><img src="images/PF6.png" alt="dude"></p>
+                            <figure class="onderStreamText3">
+                                <h3>Use Code Josh</h3>
+                                <p>JOSH<br>DOOM</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/8.jpg" alt="LoL stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream2">
+                            <p><img src="images/PF4.png" alt="Pokimane"></p>
+                            <figure class="onderStreamText2">
+                                <h3>LEAGUEEEEEEEEEEEEEEEEEE</h3>
+                                <p>Pokimane<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/5.jpg" alt="LoL stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream2">
+                            <p><img src="images/PF3.png" alt="Kandyland"></p>
+                            <figure class="onderStreamText2">
+                                <h3>AAAAAAAAAAAAAAAAAAAAAA</h3>
+                                <p>Kandyland<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
                 </ul>
             </article>
         </section>

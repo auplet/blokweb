@@ -24,10 +24,11 @@ Te weinig gedaan toen er veel tijd was, waardoor er aan het einde veel aan gewer
 ## Bronnenlijst
 1. <a href="https://www.w3schools.com/">w3schools</a>
 2. <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
-3. <a href="https://codepen.io/Axiol/pen/QWLRMVr">codepen</a>
-4. <a href="https://dev.twitch.tv/docs/embed/everything">twitch dev</a>
+3. <a href="https://codepen.io/Axiol/pen/QWLRMVr">https://codepen.io/Axiol/pen/QWLRMVr</a>
+4. <a href="https://dev.twitch.tv/docs/embed/everything">https://dev.twitch.tv/docs/embed/everything</a>
 5. <a href="twitch.tv">twitch.tv</a>
-6. <a href="https://stackoverflow.com/questions/49934826/how-to-open-sub-menu-with-onclick-function-and-hide-with-onclick-function">stackoverflow</a>
+6. <a href="https://stackoverflow.com/questions/49934826/how-to-open-sub-menu-with-onclick-function-and-hide-with-onclick-function">https://stackoverflow.com/questions/49934826/how-to-open-sub-menu-with-onclick-function-and-hide-with-onclick-function</a>
+7. <a href="https://stackoverflow.com/questions/39892794/toggle-image-in-pure-javascript">https://stackoverflow.com/questions/39892794/toggle-image-in-pure-javascript</a>
 
 
 
@@ -35,6 +36,10 @@ Te weinig gedaan toen er veel tijd was, waardoor er aan het einde veel aan gewer
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+
+Ik vond uiteindelijk de basisopzet wel makkelijk te doen met het positioneren en beetje animeren met transform.
+Het moment dat ik dingen zoals een slideshow voor me zag komen te staan begon het moeilijke en was het te veel voor mij om het op diezelfde manier na te maken.
+Ik had nog kleine struggles met het werkende krijgen van wat javascriptcode wat ik uiteindelijk maar zo heb laten liggen.
 
 **Screenshot(s):**
 

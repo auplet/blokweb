@@ -29,20 +29,32 @@ function veranderMeerWeergevenUL() {
 }
 */
 
-
+// een show more button on click
 var meerWeergeven = document.querySelector("#showMore");
 var UL = document.querySelector(".meerWeergeven");
-meerWeergeven.addEventListener("click", function(){
+meerWeergeven.addEventListener("click", function () {
     UL.classList.add("show");
     meerWeergeven.classList.add("hide");
 });
 
+// pakt 2 images en laat ze met elkaar switchen (toggle) door middel van states
+var on = "images/uitklab.png";
+var off = ("images/verticalMenu.png");
+var state = false;
+var img = document.querySelector(".vertical img");
+var margin = document.querySelector("main");
+// op click dan veranderd het van image en image size. de margin wordt ook veranderd naar mate van de image
+img.onclick = function () {
+    img.style.width="38px";
+    margin.style.margin="0px 0px 0px 20px";
+    if (state) {
+        img.src = off;
+        state = false;
+    } else {
+        img.style.width="300px";
+        margin.style.margin="0px 0px 0px 200px";
+        img.src = on;
 
-var deButton = document.querySelector(".expand");
-
-function doeToggle(){
-    var verticalMenu = document.querySelector(".expandedMenu");
-    verticalMenu.classList.toggle("Expand");
+        state = true;
+    }
 }
-
-deButton.addEventListener("click", doeToggle);
