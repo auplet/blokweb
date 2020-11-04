@@ -1,37 +1,41 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
-@font-face{
+@font-face {
     font-family: 'Navigatie';
     src: url('font/Roobert TWHINT Bold.otf');
     font-weight: bold;
 }
 
-body{
+body {
     margin: 1.2em;
     padding: 0;
     /*font-family: sans-serif;*/
     font-family: 'Navigatie', sans-serif;
 }
 
-h1{
+h1 {
     display: none;
 }
 
-h2{
+h2 {
     font-size: 1.3em;
 }
 
-a:visited, a:link{
-text-decoration: none}
+a:visited,
+a:link {
+    text-decoration: none
+}
 
 header nav {
     font-family: 'Navigatie', sans-serif;
 }
 
-header nav ul{
+header nav ul {
     width: 100%;
     list-style: none;
     display: flex;
@@ -44,15 +48,13 @@ header nav ul{
     font-size: 18px;
 }
 
-header nav ul li{
+header nav ul li {
     padding: .2em 1em;
 }
 
-header nav ul li:last-of-type {
+header nav ul li:last-of-type {}
 
-}
-
-header nav ul a{
+header nav ul a {
     list-style: none;
 }
 
@@ -60,18 +62,18 @@ nav {
     display: flex;
 }
 
-.submenu{
+.submenu {
     display: none;
 }
 
-.logo{
+.logo {
     width: 34px;
     margin-left: 3px;
     margin-top: -8px;
     padding: 0;
 }
 
-.dots{
+.dots {
     width: 1%;
     margin-left: 480px;
     margin-top: -53px;
@@ -79,9 +81,9 @@ nav {
 
 }
 
-form{
+form {
     top: 50%;
-    left:39%;
+    left: 42%;
     position: absolute;
     margin-top: -25.2%;
 
@@ -95,12 +97,13 @@ header form {
 
 }
 
-button, input {
+button,
+input {
     border: none;
 
 }
 
-#showMore{
+#showMore {
 
     position: absolute;
     top: 50%;
@@ -113,41 +116,39 @@ button, input {
     border: none;
 }
 
-.arrowDown{
-
-}
-
-.meerWeergeven{
+.meerWeergeven {
     list-style: none;
     display: none;
     padding: .2em .2em 0;
 
 }
 
-.categories{
+.categories {
     margin-top: 10em;
 }
 
-.show{
+.show {
     display: flex;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-.stream a{
+.stream a {
     position: relative;
     display: block;
 
 }
-.stream img{
+
+.stream img {
     width: 100%;
-    transform: translate(0,0); /*verplaats image is translate*/
+    transform: translate(0, 0);
+    /*verplaats image is translate*/
     transition: 0.3s transform ease-in-out;
 }
 
-.stream a:hover img{
+.stream a:hover img {
     transform: translate(3%, -3%);
 }
 
@@ -168,7 +169,6 @@ ul section {
 
 
 -----------------------------------
-
 /*
 .stream {
   position: relative;
@@ -224,9 +224,7 @@ ul section {
 }
 */
 
-----------------------------------------
-
-article {
+---------------------------------------- article {
     border-bottom: 2px solid #C0C0C0;
     /*
     flex-flow: row;
@@ -241,7 +239,7 @@ article ul {
 
 }
 
-article ul li img{
+article ul li img {
     /*width: 20em 10em;*/
     width: 90%;
 }
@@ -251,16 +249,17 @@ article p {
 
 }
 
-h3{
+h3 {
     font-size: 14px;
 }
 
-.onderStream{
+.onderStream {
     width: 14%;
     float: left;
 
 }
-.onderStreamText{
+
+.onderStreamText {
     font-size: 14px;
     float: right;
     margin-right: -12em;
@@ -268,12 +267,13 @@ h3{
     padding: inherit;
 }
 
-.onderStream2{
+.onderStream2 {
     width: 8%;
     float: left;
 
 }
-.onderStreamText2{
+
+.onderStreamText2 {
     font-size: 14px;
     float: right;
     margin-right: -18.5em;
@@ -281,12 +281,13 @@ h3{
     padding: inherit;
 }
 
-.onderStream3{
+.onderStream3 {
     width: 8%;
     float: left;
 
 }
-.onderStreamText3{
+
+.onderStreamText3 {
     font-size: 14px;
     float: right;
     margin-right: -9.5em;
@@ -298,11 +299,12 @@ input[type=submit] {
     text-decoration: none;
 }
 
-.english{
+.english {
     float: right;
     margin-right: -7em;
 }
-#searchButton{
+
+#searchButton {
     text-decoration: none;
 }
 
@@ -311,7 +313,7 @@ input[type=submit] {
         transform: scale(1);
     }
 
-    100%{
+    100% {
         transform: scale(1.1);
     }
 }
@@ -329,28 +331,33 @@ input[type=submit] {
         padding: 0;
 
     }
-    h2{
+
+    h2 {
         display: none;
     }
 
-    button{
+    button {
         display: none;
     }
-    article > ul li:nth-of-type(2), li:nth-of-type(3), li:nth-of-type(4), li:last-child {
+
+    article > ul li:nth-of-type(2),
+    li:nth-of-type(3),
+    li:nth-of-type(4),
+    li:last-child {
         display: none;
         justify-content: center;
         align-content: flex-start;
     }
 
-    header nav ul{
-    list-style: none;
-    display:flex;
-    margin: 0;
-    padding: 1em;
-    border-bottom: 2px solid #C0C0C0;
-    position: absolute;
-    bottom: 0;
-    background-color: white;
+    header nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 1em;
+        border-bottom: 2px solid #C0C0C0;
+        position: absolute;
+        bottom: 0;
+        background-color: white;
     }
 
 
