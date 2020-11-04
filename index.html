@@ -5,31 +5,50 @@
     <meta charset="UTF-8">
     <meta name="author" content="Alexander">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="icon" type="image/png" href="images/logo.png"/>
     <title>Twitch frontend</title>
-
     <link href="styles/style.css" rel="stylesheet">
 </head>
 
 <body>
-<header>
-    <nav>
-        <ul>
-            <li><a href="">Volgend</a></li>
-            <li><a href="">Bladeren</a></li>
-            <li><a href="">Esports</a></li>
-            <li><a href="">Muziek</a></li>
+    <header>
+       <a href="index.html" class="home"><img src="images/logo.png" alt="logo" class="logo">
+                <div class="backgroundLogo"></div>
+            </a>
+        <nav>
+            <ul>
+                <li><a href="">Following</a></li>
+                <li><a href="">Browse</a></li>
+                <li><a href="">Esports</a></li>
+                <li><a href="">Music</a></li>
+
+            </ul>
+        </nav>
+        <a href=""><img src="images/ellipsis.png" alt="dots" class="dots"></a>
+        <ul class="submenu">
+            <li><a href="">General</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Advertisers</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Developers</a></li>
+            <li><a href="">Download Apps</a></li>
+            <li><a href="">Gift Card</a></li>
+            <li><a href="">IGDB</a></li>
+            <li><a href="">Jobs</a></li>
+            <li><a href="">Music on Twitch</a></li>
+            <li><a href="">Partners</a></li>
+            <li><a href="">Press</a></li>
+            <li><a href="">Store</a></li>
+            <li><a href="">Turbo</a></li>
         </ul>
-    <form>
-          <input type="search" name="search" id="search" placeholder="Zoeken">
-          <button type="submit">Zoeken</button>
-    </form>
-    </nav>
+        <form>
+            <input type="search" name="search" id="search" placeholder="Search">
+            <button type="submit" id="searchButton"><img src="images/magnifying-glass.png" alt="search button"></button>
+        </form>
 
-
-</header>
-<main>
-   <!----
+    </header>
+    <main>
+        <!----
     <section>
         <article>
 
@@ -37,69 +56,108 @@
     </section>
 --->
         <section>
-           <article>
-               <h1>Ontdekken</h1>
-                <h2>Live kanalen waarvan we denken dat je die leuk zult vinden</h2>
-                    <ul>
-                        <li><a href=""><img src="images/1.jpg" alt="foto 1"/></a></li>
-                        <li> <img src="images/2.jpg" alt="foto 2"/></li>
-                        <li> <img src="images/3.jpg" alt="foto 3"/></li>
-                        <li> <img src="images/4.jpg" alt="foto 4"/></li>
-                        <li> <img src="images/5.jpg" alt="foto 5"/></li>
-                    </ul>
-
-                    <ul>
-                        <li> <img src="images/1.jpg" alt="foto 1"/></li>
-                        <li> <img src="images/2.jpg" alt="foto 2"/></li>
-                        <li> <img src="images/3.jpg" alt="foto 3"/></li>
-                        <li> <img src="images/4.jpg" alt="foto 4"/></li>
-                        <li> <img src="images/5.jpg" alt="foto 5"/></li>
-                    </ul>
-
-                    <button> Meer weergeven &#8827;</button>
-
-                    <!--<ul id = "dots">
-                        <li> <img src="images/1.jpg" alt="foto 1"/></li>
-                        <li> <img src="images/2.jpg" alt="foto 2"/></li>
-                        <li> <img src="images/3.jpg" alt="foto 3"/></li>
-                        <li> <img src="images/4.jpg" alt="foto 4"/></li>
-                        <li> <img src="images/5.jpg" alt="foto 5"/></li>
-                    </ul>
-
-                    <ul id = "more">
-                        <li> <img src="images/1.jpg" alt="foto 1"/></li>
-                        <li> <img src="images/2.jpg" alt="foto 2"/></li>
-                        <li> <img src="images/3.jpg" alt="foto 3"/></li>
-                        <li> <img src="images/4.jpg" alt="foto 4"/></li>
-                        <li> <img src="images/5.jpg" alt="foto 5"/></li>
-                    </ul>
-
-                    <button onclick = "meerWeergeven()" id = "buttonMore">Meer weergeven</button>
-                    -->
-            </article>
-    </section>
-
-     <section>
             <article>
-                <h2><a href="">Categorieën</a> waarvan we denken dat je die leuk zult vinden</h2>
-                    <ul>
-                        <li> <img src="images/10.jpg" alt="foto 10"/></li>
-                        <li> <img src="images/11.jpg" alt="foto 11"/></li>
-                        <li> <img src="images/12.jpg" alt="foto 12"/></li>
-                        <li> <img src="images/13.jpg" alt="foto 13"/></li>
-                        <li> <img src="images/14.jpg" alt="foto 14"/></li>
-                        <li> <img src="images/15.jpg" alt="foto 15"/></li>
-                        <li> <img src="images/16.jpg" alt="foto 16"/></li>
-                        <li> <img src="images/17.jpg" alt="foto 17"/></li>
-                        <li> <img src="images/18.jpg" alt="foto 18"/></li>
-                    </ul>
+                <h1>Ontdekken</h1>
+                <h2>Live channels we think you'll like</h2>
+                <ul>
+                    <section>
+                        <li class="stream"><a href="detail.html"><img src="images/1.jpg" alt="foto 1" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <article class="onderStream">
+                            <p><img src="images/beccaPF.png" alt="becca"></p>
+                            <figure class="onderStreamText">
+                                <h3>becca - LP MIA oh no</h3>
+                                <p>Becca<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <li class="stream"><a href=""><img src="images/3.jpg" alt="COD stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <article class="onderStream2">
+                            <p><img src="images/PF2.png" alt="symfuhny"></p>
+                            <figure class="onderStreamText2">
+                                <h3>[1005+ WINS] Use Code Sym in t..</h3>
+                                <p>Symfuhny<br>Call of Duty: Modern Warfare</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <li class="stream"><a href=""><img src="images/7.jpg" alt="josh" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <article class="onderStream3">
+                            <p><img src="images/PF6.png" alt="dude"></p>
+                            <figure class="onderStreamText3">
+                                <h3>Use Code Josh</h3>
+                                <p>JOSH<br>DOOM</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <li class="stream"><a href=""><img src="images/8.jpg" alt="LoL stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <article class="onderStream2">
+                            <p><img src="images/PF4.png" alt="Pokimane"></p>
+                            <figure class="onderStreamText2">
+                                <h3>LEAGUEEEEEEEEEEEEEEEEEE</h3>
+                                <p>Pokimane<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <li class="stream"><a href=""><img src="images/5.jpg" alt="LoL stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <article class="onderStream2">
+                            <p><img src="images/PF3.png" alt="Kandyland"></p>
+                            <figure class="onderStreamText2">
+                                <h3>AAAAAAAAAAAAAAAAAAAAAA</h3>
+                                <p>Kandyland<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                </ul>
+
+                <ul class="meerWeergeven">
+                    <li> <img src="images/6.jpg" alt="foto 1" /></li>
+                    <li> <img src="images/7.jpg" alt="foto 2" /></li>
+                    <li> <img src="images/8.jpg" alt="foto 3" /></li>
+                    <li> <img src="images/9.jpg" alt="foto 4" /></li>
+                    <li> <img src="images/5.jpg" alt="foto 5" /></li>
+                </ul>
+
+                <button id="showMore"> Meer weergeven &nbsp;<img src="images/down-chevron.png" class="arrowDown"></button>
+
             </article>
-    </section>
-</main>
-<footer>
+        </section>
+        <section>
+            <article class="categories">
+                <h2><a href="">Categories</a> we think you'll like</h2>
+                <ul>
+                    <li> <img src="images/10.jpg" alt="foto 10" /></li>
+                    <li> <img src="images/11.jpg" alt="foto 11" /></li>
+                    <li> <img src="images/12.jpg" alt="foto 12" /></li>
+                    <li> <img src="images/13.jpg" alt="foto 13" /></li>
+                    <li> <img src="images/14.jpg" alt="foto 14" /></li>
+                    <li> <img src="images/15.jpg" alt="foto 15" /></li>
+                    <li> <img src="images/16.jpg" alt="foto 16" /></li>
+                    <li> <img src="images/17.jpg" alt="foto 17" /></li>
+                    <li> <img src="images/18.jpg" alt="foto 18" /></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <footer>
 
-</footer>
+    </footer>
     <script src="scripts/meerWeergeven.js"></script>
-</body>
-
-</html>
+</body></html>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alexander">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/logo.png"/>
+    <title>Twitch frontend</title>
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+       <a href="index.html" class="home"><img src="images/logo.png" alt="logo" class="logo">
+                <div class="backgroundLogo"></div>
+            </a>
+        <nav>
+            <ul>
+                <li><a href="">Following</a></li>
+                <li><a href="">Browse</a></li>
+                <li><a href="">Esports</a></li>
+                <li><a href="">Music</a></li>
+
+            </ul>
+        </nav>
+        <a href=""><img src="images/ellipsis.png" alt="dots" class="dots"></a>
+        <ul class="submenu">
+            <li><a href="">General</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Advertisers</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Developers</a></li>
+            <li><a href="">Download Apps</a></li>
+            <li><a href="">Gift Card</a></li>
+            <li><a href="">IGDB</a></li>
+            <li><a href="">Jobs</a></li>
+            <li><a href="">Music on Twitch</a></li>
+            <li><a href="">Partners</a></li>
+            <li><a href="">Press</a></li>
+            <li><a href="">Store</a></li>
+            <li><a href="">Turbo</a></li>
+        </ul>
+        <form>
+            <input type="search" name="search" id="search" placeholder="Search">
+            <button type="submit" id="searchButton"><img src="images/magnifying-glass.png" alt="search button"></button>
+        </form>
+
+    </header>
+    <main>
+        <!----
+    <section>
+        <article>
+
+        </article>
+    </section>
+--->
+        <section>
+            <article>
+                <h1>Ontdekken</h1>
+                <h2>Live channels we think you'll like</h2>
+
+                <!-- Add a placeholder for the Twitch embed -->
+                <div id="twitch-embed"></div>
+
+                <!-- Load the Twitch embed script -->
+                <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+                <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+                <script type="text/javascript">
+                    new Twitch.Embed("twitch-embed", {
+                        width: 1280,
+                        height: 720,
+                        channel: "becca",
+                        // only needed if your site is also embedded on embed.example.com and othersite.example.com
+                        parent: ["embed.example.com", "othersite.example.com"]
+                    });
+
+                </script>
+            </article>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="scripts/meerWeergeven.js"></script>
+</body>
+
+</html>

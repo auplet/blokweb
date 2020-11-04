@@ -6,9 +6,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. ![](https://www.w3schools.com/)
+1. <a href="https://www.w3schools.com/"></a>
 2. <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
-3. ![](https://codepen.io/Axiol/pen/QWLRMVr)
+3. <a href="https://codepen.io/Axiol/pen/QWLRMVr"></a>
 
 
 
