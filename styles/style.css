@@ -82,8 +82,8 @@ nav {
 }
 
 form {
-    top: 50%;
-    left: 42%;
+    top: 51%;
+    left: 49%;
     position: absolute;
     margin-top: -25.2%;
 
@@ -167,6 +167,10 @@ ul section {
     z-index: -1;
 }
 
+.twitch{
+    margin-right: -50px;
+    left: 80%;
+}
 
 -----------------------------------
 /*

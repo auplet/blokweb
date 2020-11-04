@@ -9,6 +9,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. <a href="https://www.w3schools.com/"></a>
 2. <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
 3. <a href="https://codepen.io/Axiol/pen/QWLRMVr"></a>
+4. <a href="https://dev.twitch.tv/docs/embed/everything"></a>
+
 
 
 
