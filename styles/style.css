@@ -62,10 +62,6 @@ nav {
     display: flex;
 }
 
-.submenu {
-    display: none;
-}
-
 .logo {
     width: 34px;
     margin-left: 3px;
@@ -76,16 +72,35 @@ nav {
 .dots {
     width: 1%;
     margin-left: 480px;
-    margin-top: -53px;
+    margin-top: -69px;
     position: absolute;
 
 }
+.subNAV{
+    width: 300px;
+}
+.subNAV input {
+    display: none;
+}
+
+.subNAV input:checked ~ .submenu{
+    display: block;
+    max-height: 200px;
+}
+
+.submenu {
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.5s easy-out;
+    list-style: none;
+}
+
 
 form {
-    top: 51%;
-    left: 49%;
+    top: 0.2%;
+    left: 45%;
     position: absolute;
-    margin-top: -25.2%;
+
 
 }
 
@@ -100,6 +115,13 @@ header form {
 button,
 input {
     border: none;
+}
+
+input {
+    background-color: #eaeaea;
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
 
 }
 
